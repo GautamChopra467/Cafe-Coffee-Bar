@@ -1,0 +1,284 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mango Milkshake|Cafe Coffee Bar</title>
+	<style>
+		body{
+			margin: 0; padding: 0; box-sizing: border-box;
+		}
+		header{
+		width: 100%;
+		height: 100vh;
+		background-image: url("../background.png");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	    }
+	.mainheader{
+		width: 100%;
+		height: 100px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+		
+	.mainheader .logo img{
+		width: 400px;
+		height: 400px;
+		padding-top: 110px;
+	}
+	.mainheader nav{
+		width: 450px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.mainheader nav a{
+		text-decoration: none;
+		color: #6B3E0A;
+		text-transform: uppercase;
+	}
+	.menubtn{
+		padding-right: 40px;
+	}
+	.menubtn button{
+		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		text-transform: uppercase;
+		padding: 10px 45px;
+		text-align: center;
+		font-size: 18px;
+		border: none;
+		color: #6B3E0A;
+		background-color: #B87333;
+		border-radius: 10px;
+	}
+	.menubtn button:hover{
+		color: white;
+		background-color: #6B3E0A;
+	}
+	.mainheader2{
+		width: 100%;
+		height: 100px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.mainheader2 a{
+		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		text-transform: uppercase;
+		text-decoration: none;
+		padding: 10px 45px;
+		text-align: center;
+		font-size: 18px;
+		border: none;
+		color: #6B3E0A;
+		background-color: #B87333;
+		border-radius: 10px;
+	}
+	.mainheader2 a:hover{
+		color: white;
+		background-color: #6B3E0A;
+	}
+		main{
+			width: 100%;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.left_sec{
+			padding-left: 17px;
+		}
+		.left_sec img{
+			width: 600px;
+			height: 336px;
+			border: 4px solid #6B3E0A;
+			border-radius: 17px;
+		}
+		.a{
+			font-family: "arial";
+			font-size: 35px;
+			text-transform:uppercase;
+			font-weight: lighter;
+			color: #6B3E0A;
+			margin-bottom: 2px;
+			margin-top: 0px;
+			padding-left: 200px;
+		}
+		.b{
+			font-family: "arial";
+			font-size: 17px;
+			font-weight: lighter;
+			color: #B87333;
+			margin-top: 1px;
+			text-align: center;
+			padding-left: 120px;
+			padding-right: 120px;
+		}
+		.pics{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			padding-left: 130px;
+			padding-right: 130px;
+		}
+		.pics img{
+			width: 50px;
+			height: 40px;
+		}
+		.pics p{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			font-size: 15px;
+			color: #6B3E0A;
+		}
+		.text{
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			padding-left: 115px;
+			padding-right: 130px;
+		}
+		.text button{
+			font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		text-transform: uppercase;
+		padding: 5px 6px;
+		text-align: center;
+		font-size: 15px;
+		border: none;
+		color: #6B3E0A;
+		background-color: #B87333;
+		border-radius: 10px;
+		}
+		.text button:hover{
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		color: white;
+		background-color: #6B3E0A;
+		}
+		.c{
+			padding-left: 50px;
+			padding-top: 30px;
+			padding-bottom: 20px;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			font-size: 27px;
+			color: #6B3E0A;
+		}
+		.end{
+			width: 100%;
+			display: flex;
+			align-items: center;
+			padding-left: 50px;
+			
+		}
+		.end img{
+			width: 300px;
+			height: 220px;
+			border: 2px solid #6B3E0A;
+			border-radius: 10px;
+			margin-right: 13px;
+		}
+		.end_text{
+			width: 100%;
+			display: flex;
+			align-items: center;
+			padding-left: 130px;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			color: #6B3E0A;
+			font-size: 20px;
+		}
+		.end_text b{
+			margin-right: 180px;
+		}
+		.icons{
+			padding-top: 50px;
+			padding-bottom: 100px;
+			display: flex;
+			align-items: center;
+			padding-left: 560px;
+		}
+		.icons img{
+			width: 45px;
+			height: 45px;
+			margin-right: 15px;
+		}
+		.insta img{
+			width: 41px;
+			height: 40px;
+		} 
+		.pin{
+			margin-top: -2px;
+		}
+		.pin img{
+			width: 43px;
+			height: 43px;
+		}
+	</style>	
+</head>
+<body>
+	<header>
+		<div class="mainheader">
+			<div class="logo">
+				<img src="../../cafe_logo.png">
+			</div>
+			<nav>
+				<a href="file:///C:/Users/user/Desktop/WEB%20DEV/1st%20project/cafe_coffee_bar.html#">home</a>
+				<a href="#">about</a>
+				<a href="#">contact us</a>
+				<a href="#">services</a>
+			</nav>
+			<div class="menubtn">
+				<a href="../../cafe_menu1.html"><button>cafe menu</button></a>
+			</div>
+		</div>
+		<div class="mainheader2">
+		    <a href="../../cafe_menu1_what_new.html">WHAT'S NEW</a>
+		    <a href="../../cafe_menu_beverages.html">BEVERAGES</a>
+		    <a href="../../cafe_menu1_snacks.html">SNACKS</a>
+		    <a href="../../cafe_menu1_combos.html">UNBEATABLE COMBOS</a>
+	    </div>
+		<main>
+			<div class="left_sec">
+				<img src="../../mango_shake.jpg">
+			</div>
+			<div class="right_sec">
+				<p class="a">Mango Milkshake</p>
+				<p class="b">Discover delight in every sip with this divine, sumptuous mango treat.</p>
+				<div class="pics">
+					<img src="../cup-myfav.png">
+					<img src="../cup-hungry.png">
+					<img src="../cup-love.png">
+					<img src="../cup-yummy.png">
+				</div>
+				<div class="text">
+					<button>FAVOURITE</button>
+					<button>SO HUNGRY</button>
+					<button>I LOVE IT</button>
+					<button>YUMMY!</button>
+				</div>
+			</div>
+		</main>
+		<div class="c">
+			<b>#MangoMilkshake Goes Well With</b>
+		</div>
+		<div class="end">
+				<a href="file:///C:/Users/user/Desktop/WEB%20DEV/1st%20project/cafe_menu/menu_snacks/2.html"><img src="../../chicken_burger.jpg"></a>
+			    <a href="file:///C:/Users/user/Desktop/WEB%20DEV/1st%20project/cafe_menu/menu_snacks/3.html"><img src="../../Veg-Cheese-Burger_4.jpg"></a>
+			    <a href="file:///C:/Users/user/Desktop/WEB%20DEV/1st%20project/cafe_menu/menu_snacks/4.html"><img src="../../CrispyVeg_0.jpg"></a>
+			    <a href="file:///C:/Users/user/Desktop/WEB%20DEV/1st%20project/cafe_menu/menu_snacks/11.html"><img src="../../Chilli-Cheese-Toastizza_4.jpg"></a>
+		</div>
+		<div class="end_text">
+			<b>Chicken Burger</b>
+			<b>Cheese Burger</b>
+			<b>Crispy Veg Wrap</b>
+			<b>Cheese Toastizza</b>
+		</div>
+		<div class="icons">
+			<div class="insta"><a href=""><img src="../../instagram.png"></a></div>
+			<a href=""><img src="../../facebook.png"></a>
+			<a href=""><img src="../../twitter.png"></a>
+			<a href="https://www.youtube.com/"><img src="../../youtube.png"></a>
+			<div class="pin"><a href=""><img src="../../pinterest.png"></a></div>
+		</div>
+	</header>	
+</body>
+</html>
+
