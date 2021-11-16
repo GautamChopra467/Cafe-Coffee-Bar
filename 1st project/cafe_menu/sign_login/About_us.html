@@ -1,0 +1,407 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+	<style>
+		body{
+			margin: 0; padding: 0; box-sizing: border-box;
+		}
+		header{
+		width: 100%;
+		height: 100vh;
+		background-image: url("../../cafe_menu1_bck.png");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	    }
+	.mainheader1{
+		width: 100%;
+		height: 100px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}	
+	.mainheader1 .logo img{
+		width: 400px;
+		height: 400px;
+		padding-top: 110px;
+	}
+	.mainheader1 nav{
+		width: 450px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.mainheader1 nav a{
+		text-decoration: none;
+		color: #6B3E0A;
+		text-transform: uppercase;
+	}
+		.mainheader1 nav a:hover{
+			color: #B87333;
+		}
+		.menubtn{
+			padding-right: 40px;
+		}
+	.menubtn button{
+		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		text-transform: uppercase;
+		padding: 10px 45px;
+		text-align: center;
+		font-size: 18px;
+		border: none;
+		color: #6B3E0A;
+		background-color: #B87333;
+		border-radius: 10px;
+	}
+	.menubtn button:hover{
+		color: white;
+		background-color: #6B3E0A;
+	}
+		.mainheader2 img{
+			width: 100%;
+			height: 450px;
+		}
+		.mainheader2 p{
+			padding-top: 20px;
+			padding-left: 300px;
+			padding-right: 300px;
+			font-family: 'Raleway', sans-serif;
+			font-size: 30px;
+			color: #6B3E0A;
+		}
+		.text p{
+			margin-top: -35px;
+			font-family: 'Raleway', sans-serif;
+			letter-spacing: 0.07em;
+			line-height: 19px;
+			font-size: 15px;
+			color: #2E2E2E;
+		}
+		main{
+			margin-top: 70px;
+			background-color: #E0E0E0;
+			padding-bottom: 140px;
+		}
+		.heading img{
+			width: 100px;
+			height: 100px;
+			padding-left: 610px;
+		}
+		.a{
+			font-family: 'Raleway', sans-serif;
+			font-size: 22px;
+			color: #6B3E0A;
+			margin-top: -40px;
+			padding-left: 620px;
+		}
+		.b{
+			font-family: 'Raleway', sans-serif;
+			font-size: 11px;
+			color: #A6A6A6;
+			margin-top: -8px;
+			padding-left: 526px;
+		}
+		.line img{
+			width: 300px;
+			height: 1600px;
+			padding-left: 515px;
+			padding-top: 20px;
+			padding-bottom: 300px;
+		}
+		.arrow{
+			margin-top: -1760px;
+			padding-left: 603px;
+		}
+		.arrow img{
+			width: 120px;
+			height: 120px;
+			padding-bottom: 160px;
+		}
+		.circle1{
+			margin-top: -1470px;
+			padding-left: 740px;
+		}
+		.circle2{
+			padding-left: 365px;
+			margin-top: 68px;
+		}
+		.circle3{
+			padding-left: 740px;
+			padding-top: 64px;
+		}
+		.circle4{
+			padding-left: 365px;
+			padding-top: 80px;
+		}
+		.circle5{
+			padding-left: 740px;
+			padding-top: 65px;
+		}
+		.circle img{
+			width: 210px;
+			height: 200px;
+			border: 5px solid #C4C4C4;
+			border-radius: 50%;
+		}
+		.rectangle1{
+			margin-top: -1306px;
+			margin-left: 295px;
+			width: 295px;
+			height: 130px;
+			border: 2px solid #C4C4C4;
+			border-radius: 10px;
+			background-color: #B87333;
+		}
+		.rectangle2{
+			margin-top: 160px;
+			margin-left: 740px;
+			width: 295px;
+			height: 130px;
+			border: 2px solid #C4C4C4;
+			border-radius: 10px;
+			background-color: #B87333;
+		}
+		.rectangle3{
+			margin-top: 140px;
+			margin-left: 295px;
+			width: 295px;
+			height: 130px;
+			border: 2px solid #C4C4C4;
+			border-radius: 10px;
+			background-color: #B87333;
+		}
+		.rectangle4{
+			margin-top: 155px;
+			margin-left: 740px;
+			width: 295px;
+			height: 130px;
+			border: 2px solid #C4C4C4;
+			border-radius: 10px;
+			background-color: #B87333;
+		}
+		.rectangle5{
+			margin-top: 140px;
+			margin-left: 295px;
+			width: 295px;
+			height: 130px;
+			border: 2px solid #C4C4C4;
+			border-radius: 10px;
+			background-color: #B87333;
+		}
+		.rec_head{
+			padding-top: 7px;
+			text-align: center;
+			font-family: 'Raleway', sans-serif;
+			font-size: 25px;
+			color: white;
+		}
+		.rec_text{
+			text-align: center;
+			padding-top: 5px;
+			font-family: 'Raleway', sans-serif;
+			font-size: 13px;
+			color: #6B3E0A;
+		}
+		.heading2_pic{
+			padding-top: 40px;
+			padding-left: 610px;
+		}
+		.heading2_pic img{
+			width: 100px;
+			height: 100px;
+			padding-left: 0px;
+		}
+		.heading2{
+			font-family: 'Raleway', sans-serif;
+			font-size: 22px;
+			color: #6B3E0A;
+			margin-top: -60px;
+			padding-left: 608px;
+		}
+		.ceo_pic img{
+			margin-top: -10px;
+			padding-left: 350px;
+			widows: 900px;
+			height: 500px;
+		}
+		.ceo_head p{
+			font-family: 'Raleway', sans-serif;
+			font-size: 22px;
+			color: #6B3E0A;
+		}
+		.ceo_head1{
+			margin-top: -464px;
+			padding-left: 600px;
+		}
+		.ceo_head2{
+			padding-top: 150px;
+			padding-left: 600px;
+		}
+		.ceo_sub p{
+			font-family: 'Raleway', sans-serif;
+			font-size: 15px;
+			color: white;
+		}
+		.ceo_sub1{
+			margin-top: -240px;
+			padding-left: 600px;
+		}
+		.ceo_sub2{
+			padding-top: 172px;
+			padding-left: 600px;
+		}
+		.ceo_text p{
+			width: 320px;
+			font-family: 'Raleway', sans-serif;
+			font-size: 11px;
+			color: #E0E0E0;
+		}
+		.ceo_text1{
+			margin-top: -230px;
+			padding-left: 600px;
+		}
+		.ceo_text2{
+			padding-top: 108px;
+			padding-left: 600px;
+		}
+		.icons{
+			padding-top: 100px;
+			padding-bottom: 100px;
+			display: flex;
+			align-items: center;
+			padding-left: 560px;
+		}
+		.icons img{
+			width: 45px;
+			height: 45px;
+			margin-right: 15px;
+		}
+		.insta img{
+			width: 41px;
+			height: 40px;
+		} 
+		.pin{
+			margin-top: -2px;
+		}
+		.pin img{
+			width: 43px;
+			height: 43px;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class="mainheader1">
+			<div class="logo">
+				<img src="../../cafe_logo.png">
+			</div>
+			<nav>
+				<a href="../../cafe_coffee_bar.html">home</a>
+				<a href="#">about</a>
+				<a href="#">contact us</a>
+				<a href="#">services</a>
+			</nav>
+			<div class="menubtn">
+				<a href="../../cafe_menu1.html"><button>cafe menu</button></a>
+			</div>
+		</div>
+		<div class="mainheader2">
+			<img src="../About-Us.jpg">
+			<p>About Us</p>
+			<div class="text">
+				<p>Café Coffee Bar, a part of Coffee Day Global Limited, is India’s favourite hangout for coffee and conversations. Popularly known as CCD, we strive to provide the best experience to our guests. Our coffees are sourced from thousands of small coffee planters, who made us who we are today and we're glad to be a part of their lives. We opened our first cafe in 1996 at Brigade Road in Bangalore – the youth and the young at heart immediately took to the cafe, and it continues to be one of the most happening places in the city. CCD to the youth is a “hangout” spot where they meet people, make conversations, and have a whole lot of fun over steaming cups of great coffee.It's been an exciting journey since then to becoming the largest organised retail cafe chain in the country. We’re also present in Austria, Czech Republic and Malaysia, so if your travel takes you there, do stop by our outlets to get a taste from back home!</p>
+			</div>
+		</div>
+		<main>
+			<div class="heading">
+				<img src="../output-onlinepngtools (2).png">
+				<p class="a">Journey</p>
+				<p class="b">Come join us in our journey to growth and betterment.</p>
+			</div>
+			<div class="items">
+				<div class="line">
+					<img src="../output-onlinepngtools (3).png">
+				</div>
+				<div class="arrow">
+					<img src="../output-onlinepngtools (4).png"><br>
+					<img src="../output-onlinepngtools (4).png"><br>
+					<img src="../output-onlinepngtools (4).png"><br>
+					<img src="../output-onlinepngtools (4).png"><br>
+					<img src="../output-onlinepngtools (4).png"><br>
+				</div>
+				<div class="circle">
+					<div class="circle1"><img src="../1st_coffee.jpg"></div>
+					<div class="circle2"><img src="../2nd_coffee.webp"></div>
+					<div class="circle3"><img src="../3rd coffee.jpg"></div>
+					<div class="circle4"><img src="../4thcoffee.jpg"></div>
+					<div class="circle5"><img src="../6th coffee.jpg"></div>
+				</div>
+				<div class="rectangle">
+					<div class="rectangle1">
+						<div class="rec_head">Our 1st One</div>
+						<div class="rec_text">Cafe Coffee Bar was founded by Mr. Sandeep Kumar Chopra and Mr. Gautam Chopra,to quickly become the India's largest cafe store.This pic is of the first coffee ordered by our prestigious customer Mr. Ram Tandon.</div>
+					</div>
+					<div class="rectangle2">
+						<div class="rec_head">Maiden Century</div>
+						<div class="rec_text">Within 45 days of opening Cafe Coffee Bar we completed our first century.The image shown is of milk coffee ordered by Mr. Satish Kumar Chopra.</div>
+					</div>
+					<div class="rectangle3">
+						<div class="rec_head">1 K Completed</div>
+						<div class="rec_text">With hardwork and commitment,we achieved the mark of one thousand orders.This pic is of cafe latte ordered by Mrs. Megha Verma.Our growth didn't stop here and we started opening various branches across the country.</div>
+					</div>
+					<div class="rectangle4">
+						<div class="rec_head">10 Thousand Orders</div>
+						<div class="rec_text">Despise harsdships we have become the most famous and fastest growing cafe company across the country.We completed our 10K orders with the help of our customer named Mr.Raghav Chopra.</div>
+					</div>
+					<div class="rectangle5"> 
+						<div class="rec_head">Congo. 1 Million</div>
+						<div class="rec_text">What an outstanding record of 1 Million within a period of 9 years.Now our company is setting records worldwide and is now a multinational cafe unit.A special thanks to Miss. Katy Smith for this order.</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div class="items2">
+			<div class="heading2_pic">
+					<img src="../output-onlinepngtools (2).png">
+				</div>
+				<div class="heading2">
+					<p>Executive</p>
+				</div>
+				<div class="ceo">
+					<div class="ceo_pic">
+						<img src="../CEO.png">
+					</div>
+					<div class="ceo_head">
+						<div class="ceo_head1"><p>Mr. Sandeep Kumar Chopra</p></div>
+						<div class="ceo_head2"><p>Mr. Gautam Chopra</p></div>
+					</div>
+					<div class="ceo_sub">
+						<div class="ceo_sub1"><p>Co-Founder & CEO</p></div>
+						<div class="ceo_sub2"><p>Co-Founder & COO</p></div>
+					</div>
+					<div class="ceo_text">
+						<div class="ceo_text1">
+							<p>Sandeep Kumar Chopra is an Enterprenear and growth hacker with more than fifteen years of expertise Business Marketing.He is a high energy individual fueled by his experience for helping business grow digitally.<br><br>
+							To validate his keen interest in Growth Marketing.Sandeep has been certified from Hubspot for Inbound Marketing.</p>
+						</div>
+						<div class="ceo_text2">
+							<p>Gautam Chopra is a Creative Engineer and has worked in a variety of brands and lead the company with his outstanding passion.He has managed multiple projects in Cafe Coffee Bar.<br>
+							He always guide his team players as a mentor and supervise the creative team while introducing new,innovative and challenging methods for the growth of our company.</p>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="icons">
+			<div class="insta"><a href=""><img src="../../instagram.png"></a></div>
+			<a href=""><img src="../../facebook.png"></a>
+			<a href=""><img src="../../twitter.png"></a>
+			<a href="https://www.youtube.com/"><img src="../../youtube.png"></a>
+			<div class="pin"><a href=""><img src="../../pinterest.png"></a></div>
+		</div>
+	</header>
+</body>
+</html>
