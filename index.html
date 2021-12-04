@@ -3,10 +3,14 @@
 <head>
 <meta charset="utf-8">
 <title>Cafe Coffee Bar</title>
+<!-- 	<link rel="shortcut icon" type="image" href="logo.png"> -->
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+	
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 	<style>
+		html{
+			font-size: 62.5%;
+		}
 		body{
 			margin: 0; padding: 0; box-sizing: border-box;
 		}
@@ -20,18 +24,18 @@
 	    }
 	.mainheader{
 		width: 100%;
-		height: 100px;
+		height: 10rem;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 	}
 	.mainheader .logo img{
-		width: 400px;
-		height: 400px;
-		padding-top: 130px;
+		width: 40rem;
+		height: 40rem;
+		padding-top: 13rem;
 	}
 	.mainheader nav{
-		width: 450px;
+		width: 45rem;
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
@@ -40,23 +44,24 @@
 		text-decoration: none;
 		color: #6B3E0A;
 		text-transform: uppercase;
+		font-size: 1.5rem;
 	}
 		.mainheader nav a:hover{
 			color: #B87333;
 		}
 		.menubtn{
-			padding-right: 40px;
+			padding-right: 4rem;
 		}
 	.menubtn button{
 		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
 		text-transform: uppercase;
-		padding: 10px 45px;
+		padding: 1rem 4.5rem;
 		text-align: center;
-		font-size: 18px;
+		font-size: 1.8rem;
 		border: none;
 		color: #6B3E0A;
 		background-color: #B87333;
-		border-radius: 10px;
+		border-radius: 1rem;
 	}
 	.menubtn button:hover{
 		color: white;
@@ -69,49 +74,49 @@
 		justify-content: space-around;
 	}
 	main .left-sec{
-		padding-left: 70px;
+		padding-left: 7rem;
 	}
 	.a{
-		margin-bottom: 5px;
-		font-size: 35px;
+		margin-bottom: 0.5rem;
+		font-size: 3.5rem;
 		color: #6B3E0A;
 		text-transform: capitalize;
 		font-weight: lighter;
 	}
 	.b{
-		margin-top: 5px;
-		margin-bottom: 5px;
-		font-size: 50px;
+		margin-top: .5rem;
+		margin-bottom: .5rem;
+		font-size: 5rem;
 		color: #B87333;
 		font-weight: lighter;
 		text-transform: capitalize;
 	}
 	.c{
-		margin-top: 1px;
-		font-size: 15px;
+		margin-top: .1rem;
+		font-size: 1.5rem;
 		color: #6B3E0A;
 		font-weight: lighter;
 		text-transform: capitalize;
 	}
 	.d a{
-		font-size: 27px;
-		width: 100px;
-		height: 21px;
+		font-size: 2.7rem;
+		width: 10rem;
+		height: 2.1rem;
 		background-color: #B87333;
-		border-radius: 10px;
+		border-radius: 1rem;
 		color: #6B3E0A;
 		text-decoration: none;
-		padding-left: 5px;
-		padding-right: 5px;
+		padding-left: .5rem;
+		padding-right: .5rem;
 	}
 	.d a:hover{
 		color: white;
 		   background-color: #6B3E0A;
 	}
 	.right-sec img{
-		padding-right: 100px;
-		width: 600px;
-		height: 500px;
+		padding-right: 10rem;
+		width: 60rem;
+		height: 50rem;
 	}
 		
 	
@@ -132,31 +137,41 @@
 			align-items: center;
 		}
 		.back_2 img{
-			width: 50%;
+			width: 38%;
 			height: 34vh;
 		}
 		.icons{
-			padding-top: 50px;
-			padding-bottom: 100px;
+			padding-top: 5rem;
+			padding-bottom: 10rem;
 			display: flex;
 			align-items: center;
-			padding-left: 560px;
+			padding-left: 56rem;
 		}
 		.icons img{
-			width: 45px;
-			height: 45px;
-			margin-right: 15px;
+			width: 4.5rem;
+			height: 4.5rem;
+			margin-right: 1.5rem;
 		}
 		.insta img{
-			width: 41px;
-			height: 40px;
+			width: 4.1rem;
+			height: 4.0rem;
 		} 
 		.pin{
-			margin-top: -2px;
+			margin-top: -0.2rem;
 		}
 		.pin img{
-			width: 43px;
-			height: 43px;
+			width: 4.3rem;
+			height: 4.3rem;
+		}
+		@media(max-width:998px){
+			html{
+				font-size: 55%;
+			}
+		}
+		@media(max-width:768px){
+			html{
+				font-size: 45%;
+			}
 		}
 	</style>
 </head>
@@ -168,10 +183,10 @@
 				<img src="1st project/cafe_logo.png">
 			</div>
 			<nav>
-				<a href="1st project/cafe_menu/sign_login/log_in">login</a>
+				<a href="1st project/cafe_menu/sign_login/log_in.html">login</a>
 				<a href="1st project/cafe_menu/sign_login/About_us.html">about</a>
-				<a href="1st project/cafe_menu/sign_login/Contact_us">contact us</a>
-				<a href="#">services</a>
+				<a href="1st project/cafe_menu/sign_login/Contact_us.html">contact us</a>
+				<a href="1st project/cafe_menu/sign_login/Services_1.html">services</a>
 			</nav>
 			<div class="menubtn">
 				<a href="1st project/cafe_menu1.html"><button>cafe menu</button></a>
@@ -204,7 +219,5 @@
 			<a href="https://www.youtube.com/"><img src="1st project/youtube.png"></a>
 			<div class="pin"><a href=""><img src="1st project/pinterest.png"></a></div>
 		</div>
-	<script src="jquery-3.6.0.min"></script>
-	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
